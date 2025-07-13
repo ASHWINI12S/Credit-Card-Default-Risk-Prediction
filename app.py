@@ -6,9 +6,6 @@ import numpy as np
 with open('models/models.pkl','rb') as file:
     loaded_model =pickle.load(file)
 
-
-
-
 x = pd.read_csv('Data/preprocessdata/x.csv')
 
 
