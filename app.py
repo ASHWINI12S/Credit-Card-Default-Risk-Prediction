@@ -3,13 +3,13 @@ import pickle
 import pandas as pd
 import numpy as np
 
-with open(r'C:\Users\ASHWINI\OneDrive - ATCS\Desktop\ML Project\models\models.pkl','rb') as file:
+with open(r'models\models.pkl','rb') as file:
     loaded_model =pickle.load(file)
 
 
 
 
-x = pd.read_csv(r'C:\Users\ASHWINI\OneDrive - ATCS\Desktop\ML Project\Data\preprocessdata\x.csv')
+x = pd.read_csv(r'Data\preprocessdata\x.csv')
 
 
 st.title("Credit Risk Prediction App")
